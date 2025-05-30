@@ -1,19 +1,23 @@
 *{
-    background-color: azure;
+    background-color: rgb(191, 255, 255);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: blue;
 }
 
 nav{
-    color: azure;
+    color: rgb(197, 252, 252);
     text-decoration: none;
     margin: 15px;
     padding: 10px;
     font-weight: bold;
+    text-align: center;
+    border-radius: 12px;
+    background-color: rgb(168, 247, 220);
+
 }
 
 a:hover{
-    background-color: aquamarine;
+    background-color: rgb(87, 199, 161);
 }
 
 h1{
@@ -24,6 +28,7 @@ h1{
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     text-align:justify
+    
 }
 .szoveg img{
     max-width: 100%;
@@ -38,6 +43,15 @@ article{
     padding-right: 1em;
 }
 
+section{
+    border-radius: 12px;
+    background-color: aquamarine;
+}
+
+ul{
+    text-decoration: none;
+}
+
  @media (max-width:600px) {
     a{
         display: grid;
@@ -47,7 +61,7 @@ article{
         max-width: 100%;
         font-size: 18px;
     }
-    div{
+    .szoveg{
         display: grid;
         grid-template-columns: 1fr;
     }
