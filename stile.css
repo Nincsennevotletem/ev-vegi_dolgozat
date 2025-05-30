@@ -52,6 +52,12 @@ section{
 ul{
     text-decoration: none;
 }
+footer{
+    border-radius: 5px;
+    background-color: aquamarine;
+    padding: 10px;
+    text-align: center;
+}
 
  @media (max-width:600px) {
     a{
