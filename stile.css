@@ -21,13 +21,15 @@ h1{
 }
 .szoveg{
     display: grid;
-    grid-template-columns: 2fr;
+    grid-template-columns: 1fr 1fr;
     gap: 10px;
     text-align:justify
 }
 .szoveg img{
     max-width: 100%;
     border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 article{
     max-width: 900px;
