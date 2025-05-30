@@ -8,12 +8,15 @@ nav{
     color: rgb(197, 252, 252);
     text-decoration: none;
     margin: 15px;
-    padding: 10px;
+    padding: 1rem;
     font-weight: bold;
     text-align: center;
     border-radius: 12px;
     background-color: rgb(168, 247, 220);
+}
 
+a{
+    text-decoration: none;
 }
 
 a:hover{
@@ -28,7 +31,6 @@ h1{
     grid-template-columns: 1fr 1fr;
     gap: 10px;
     text-align:justify
-    
 }
 .szoveg img{
     max-width: 100%;
@@ -51,12 +53,16 @@ section{
 
 ul{
     text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    text-decoration: none;
 }
 footer{
     border-radius: 5px;
     background-color: aquamarine;
     padding: 10px;
     text-align: center;
+    text-decoration: none;
 }
 
  @media (max-width:600px) {
