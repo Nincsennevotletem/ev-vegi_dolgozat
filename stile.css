@@ -52,10 +52,9 @@ section{
 }
 
 ul{
-    text-decoration: none;
     padding: 10px;
     margin: 10px;
-    text-decoration: none;
+    text-align: justify;
 }
 footer{
     border-radius: 5px;
