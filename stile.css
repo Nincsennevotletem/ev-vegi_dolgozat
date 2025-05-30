@@ -21,7 +21,33 @@ h1{
 }
 .szoveg{
     display: grid;
+    grid-template-columns: 2fr;
     gap: 10px;
     text-align:justify
 }
+.szoveg img{
+    max-width: 100%;
+}
+article{
+    max-width: 900px;
+    margin: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+ @media (max-width:600px) {
+    a{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    *{
+        max-width: 100%;
+        font-size: 18px;
+    }
+    div{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+ }
 
